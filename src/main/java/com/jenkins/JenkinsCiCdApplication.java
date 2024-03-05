@@ -13,7 +13,7 @@ public class JenkinsCiCdApplication {
 
     @GetMapping("/greetings/{name}")
     public String greetings(@PathVariable String name) {
-        return "Hello" + name;
+        return "Hello " + name;
     }
 
     public static void main(String[] args) {
