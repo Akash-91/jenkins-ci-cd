@@ -15,7 +15,7 @@ public class JenkinsCiCdApplication {
     public String greetings(@PathVariable String name) {
 
         name = name.split(" ")[0];
-        return "Hello " + name + " , welcome to your first jenkins demo project..!!";
+        return "Hello " + name + ", welcome to your first jenkins demo project..!!";
     }
 
     public static void main(String[] args) {
